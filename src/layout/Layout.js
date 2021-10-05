@@ -1,9 +1,14 @@
 import React from "react";
+import Content from "../main/Content";
 
 class Layout extends React.Component {
     render() {
         return (
-            <p>Hola, mundo!</p>
+            <div>
+                <p>Hola, mundo!</p>
+                <hr/>
+                <Content/>
+            </div>
         );
     }
 }
